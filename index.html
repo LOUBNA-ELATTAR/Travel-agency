@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <link rel="icon" type="image/png" href="images/avion.png">
+    <title>IAGI Travel</title>
+</head>
+<body>
+    <section>
+        <div class="nav">
+          <input type="checkbox" id="nav-check">
+          <div class="nav-header">
+            <div class="nav-title"><b>
+              IAGI Travel</b>
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+          
+          <div class="nav-links">
+            <a href="#home">Accueil</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#circuits">Circuits</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+    </section>
+   
+    <section class="main" id="home">
+        <div class="d-flex main-text">
+            <h2>IAGI Travel</h2>
+            <p>IAGI Travel vous permet de faire le tour du monde à des prix uniques !</p>
+            <a href="#" class="main-btn">Un conseiller est en ligne.</a>
+        </div>
+    </section>
+    <section id="destinations"> 
+        <div class="heading">
+            <h1>Destinations</h1>
+        </div>
+        <div class="carousel" data-carousel>
+        <button class="carousel-button" data-carousel-btn="prev">&#10094;</button>
+        <button class="carousel-button" data-carousel-btn="next">&#10095;</button>
+        <ul data-carousel-slides>
+          <li class="slide" data-carousel-slide data-active>
+            <img src="images/slide.png" alt="image-1"/>
+            <div class="centered" style="color:black"> Corse <br/>France</div>
+          </li>
+          <li class="slide" data-carousel-slide>
+            <img src="images/slide0.jpg" alt="image-2"/>
+            <div class="centered"> Lac de Bled <br/>Slovénie</div>
+          </li>
+          <li class="slide" data-carousel-slide>
+            <img src="images/slide1.jpg" alt="image-3"/>
+            <div class="centered"> Lac de Brienz <br/>Suisse</div>
+          </li>
+          <li class="slide" data-carousel-slide>
+            <img src="images/slide4.jpg" alt="image-4"/>
+            <div class="centered" style="color:black">Venice <br/>Italie</div>
+          </li>
+          <li class="slide" data-carousel-slide>
+            <img src="images/slide3.jpg" alt="image-5"/>
+            <div class="centered">Amesbury <br/>Angleterre</div>
+          </li>
+        </ul>
+        <ul data-carousel-dots>
+          <li data-carousel-dot data-active></li>
+          <li data-carousel-dot></li>
+          <li data-carousel-dot></li>
+          <li data-carousel-dot></li>
+          <li data-carousel-dot></li>
+        </ul>
+      </div>
+        
+
+    </section>
+
+   
+    <section id="circuits">
+        <div class="heading">
+            <h1>Circuits</h1>
+        </div>
+        <div class="circuits">
+            <div class="items">
+                <img src="images/c1.png">
+                <div class="details">
+                    <p><span>Planifier</span><br>Confiez-nous vos rêves d'évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
+                </div>
+            </div>
+            <div class="items">
+                <img src="images/c2.png">
+                <div class="details">
+                    <p>
+                    <span>Organiser</span><br>Bénéficiez de l'expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+                </div>
+            </div>
+
+            <div class="items">
+                <img src="images/c3.png">
+                <div class="details">
+                    <p>
+                        <span>Voyager</span><br>
+                    Nous nous chargeons d'assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
+                </div>
+            </div> 
+        </div>
+        <div class="circuits2">
+            <div class="items2">
+                <img src="images/a1.jpg">
+                <div class="details">
+                    <p><span>Partez en famille</span><br>Offrez le meilleur à ceux que vous aimez et partagez ces moments fabuleux.</p>
+                </div>
+            </div>
+            <div class="items2">
+                <img src="images/a2.jpg">
+                <div class="details">
+                    <p>
+                    <span>Envie de s'évader</span><br>Parfois un peu d'évasion serait le bienvenue et ferait le plus grand bien !</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="galerie">
+        <div class="heading">
+            <h1>Galerie</h1>
+        </div>
+        <div class="photo-grid">
+            <div class="card card-tall" style="background-image:url('images/1.png')">
+              Merzouga
+            </div>
+            <div class="card card-tall" style="background-image:url('images/2.png')">
+              Arizona
+            </div>
+            <div class="card card-tall" style="background-image:url('images/3.png')">
+              Bangkok
+            </div>
+            <div class="card card-tall" style="background-image:url('images/4.png'); color: black;">
+              Doha
+            </div>
+            <div class="card card-tall" style="background-image:url('images/5.png')">
+              Prague
+            </div>
+            <div class="card card-tall" style="background-image:url('images/6.png')">
+              Séoul
+            </div>
+            <div class="card card-tall" style="background-image:url('images/7.png')">
+              Valencia
+            </div>
+            <div class="card card-tall" style="background-image:url('images/8.png')">
+              Lac Koman
+            </div>
+        </div>
+    </section>
+    <section id="contact"> 
+        <div class="heading">
+            <h1>Contact</h1>
+            <p>Chez IAGI Travel, nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi, nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans la préparation de votre séjour, circuit ou voyage sur mesure.</p>
+        </div>    
+        <form class="form">
+          <input placeholder="Entrez votre nom" class="nom" type="text" />
+          <input placeholder="Entrez votre adresse email" class="mail" type="email" />
+          <input placeholder="Submit" class="submit" type="submit" />
+        </form>
+    </section>
+    <footer>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022, All Right Reserved <b>IAGI Travel</b></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </footer>
+</body>
+</html>
+
